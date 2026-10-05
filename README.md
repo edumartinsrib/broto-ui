@@ -4,8 +4,6 @@ Biblioteca de componentes React com uma identidade visual verde: o **box** (ret�
 
 Nasceu do console do Orquestrador e foi separada para ser usada em qualquer projeto React: sem dependências além do React, sem router obrigatório e com CSS prefixado (`.bt-*`, `--bt-*`) para não colidir com o que já existe no seu app.
 
-![Dashboard montado com a lib](docs/screenshots/dashboard.png)
-
 - **60+ componentes**: botões, campos, badges de status, KPIs, tabelas com seleção, abas, diálogos, gaveta, menu, avisos, confirmação, etapas, painel de logs, gráfico de barras, layout completo (barra lateral + barra superior), login e telas de status.
 - **Acessível**: foco preso em diálogos, Esc fecha, navegação por setas em menus e abas, `aria-*` ligados automaticamente em `<Field>`.
 - **TypeScript**, ESM + CJS, `"use client"` para Next.js App Router.
@@ -169,8 +167,6 @@ export function JobsPage({ jobs }: { jobs: Job[] }) {
 ```
 
 ## Componentes
-
-![Detalhe de execução: etapas, logs e detalhes](docs/screenshots/detalhe.png)
 
 O catálogo completo, com exemplos vivos e o código de cada um, roda com `npm run dev` (veja [Desenvolvimento](#desenvolvimento)).
 
